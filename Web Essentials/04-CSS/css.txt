@@ -1,0 +1,28 @@
+nav {background-color:#F26B6B; }
+
+
+nav ul.menu li {
+    float: left;
+    list-style-type: none;
+}
+
+
+nav ul.menu li a{
+    display: block;
+    padding: 10px 30px;
+    color:azure;
+    text-decoration: none;
+    border-left: solid 3px #BBF2D3;
+       
+}
+
+nav ul.menu li a:hover {
+    background-color: rgb(255,156,159);}
+
+nav ul.menu li.active a{
+    background-color: #2B4F5C;
+}
+
+.keepOpen {
+    clear:both;
+}
