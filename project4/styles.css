@@ -1,0 +1,233 @@
+/* CSS reset */
+html, body {
+    height: 100%;
+}
+/* Header starts here*/
+header {background-color:darkgray;
+    background-image: url(imgs/circle\ logo-03.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 6rem;
+
+}
+
+body {
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    margin-bottom:400px;
+    min-height: 400px;
+    clear: both;
+
+}
+
+header h1 {
+    color: rgb(170, 243, 230);
+font-family: 'Amatic SC', cursive;
+margin-left: 50%;
+font-size: 32px;
+
+}
+
+header h2 {color: #BBF2D3;
+        font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+nav ul {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    padding-inline: 5%;
+    padding: 2%;
+    text-align: center;
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+  font-size: 24px;
+}
+
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: darkcyan;
+    }
+
+h3 {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+h4 {
+  margin-left: 10%;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 14px;
+  margin: auto;
+
+}
+
+ol, li {
+  margin-left: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#parenthood {
+    text-align: center;
+    font-style: italic;
+}
+
+#pr, #contact {
+  margin-left: 10%;
+}
+
+
+#recipe {
+    text-align: center;
+    color:cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#more {
+    text-align: center;
+    font-style: italic;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color:rgb(15, 3, 3);
+    padding-top: 10px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.container .centered {
+    background: rgb(170, 243, 230);
+    fill-opacity: 40%;
+    opacity: 80%;
+}
+
+#mp {
+    padding-right: 20%;
+}
+
+#main {
+    float: left;
+    padding: 30px;
+    margin-left: 20%;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-color: black;
+  padding: 10px;
+}
+
+table {
+  margin-left: 10%;
+}
+
+/* Header/Blog */
+.header {
+    padding: 30px;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+  
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* popular post images */
+  .blimg {
+      padding: 20px;
+    
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+   #grid {
+    border: 1px #ccc solid;
+    float:left; 
+}
+
+    #grid div {
+    float: left;
+    padding: 10px;
+}
+
+  #grid div img{
+    width: 100px;
+    
+}
+
+#cc {
+  clear:both;
+  padding-top: 25px;
+}
+
+  
+  /* Footer */
+ 
+  .footer {
+    flex-shrink: 0;
+    padding: 1rem;
+    border-top: 2px solid black;
+    text-align: center;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
